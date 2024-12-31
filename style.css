@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: "Rubik", serif;
+  padding-bottom: 2000px;
+  background-color: gray;
+}
+
+.navbar {
+  display: flex;
+  top: 0;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  color: white;
+  z-index: 2;
+  transition: 0.2s ease;
+}
+
+.navbar .logo {
+  padding-left: 50px;
+  font-size: 1.5rem;
+  left: 10%;
+  font-weight: bold;
+}
+
+.navbar .menu {
+  font-family: "Rubik", serif;
+  display: flex;
+  gap: 50px;
+}
+
+.navbar .menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.5s ease;
+}
+
+.navbar .menu a:hover {
+  color: rgb(61, 80, 255);
+}
+
+.navbar .buttons {
+  padding-right: 70px;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar .buttons button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.navbar .buttons .our-services {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.navbar .buttons .contact-us {
+  background-color: white;
+  color: black;
+}
+
+.navbar .contact-us:hover {
+  opacity: 0.9;
+}
+
+.navbar .our-services:hover {
+  background-color: white;
+  transition: 0.5s ease;
+  color: black;
+}
+
+.background {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.backg-clip {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.header-container {
+  width: 50%;
+  left: 0;
+  top: 15%;
+  margin-left: 100px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  padding: 20px;
+  color: white;
+}
+
+.welcome-text {
+  font-size: 3.3rem;
+  position: absolute;
+  top: 8%;
+  letter-spacing: 1.5px;
+}
+
+.header-container p {
+  padding: 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.638);
+  width: 80%;
+  font-weight: lighter;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.btn {
+  display: flex;
+  position: absolute;
+  bottom: 16%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 13%;
+  width: 47%;
+  margin-top: 30px;
+}
+
+.btn button {
+  height: 100%;
+  font-weight: 200;
+  font-size: 1.1rem;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.btn-light {
+  margin-right: 9px;
+  border: none;
+}
+
+.btn-light:hover {
+  opacity: 0.9;
+}
+
+.btn-dark {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  transition: 0.2s ease;
+}
+
+.btn-dark:hover {
+  background-color: white;
+  color: black;
+}
