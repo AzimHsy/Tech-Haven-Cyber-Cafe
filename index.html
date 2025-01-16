@@ -15,167 +15,528 @@
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="discover.css" />
+    <link rel="stylesheet" href="facilities.css" />
+    <link rel="stylesheet" href="location.css" />
+    <link rel="stylesheet" href="team.css" />
   </head>
+
   <body>
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Navigation Bar</title>
-      </head>
-      <body>
-        <nav class="navbar">
-          <div class="logo">CyberCafe</div>
-          <div class="menu">
-            <a href="#about-us">About Us</a>
-            <a href="#services">Services</a>
-            <a href="#facilities">Facilities</a>
-            <a href="#pricing">Pricing</a>
-          </div>
-          <div class="buttons">
-            <button class="our-services">Our Services</button>
-            <button class="contact-us">Contact Us</button>
-          </div>
-        </nav>
-        <div class="background">
-          <img class="backg-clip" src="images/background.webp" alt="" />
-          <div class="header-container">
-            <h1 class="welcome-text">Welcome to Cyber Cafe</h1>
-            <p>
-              Experience the ultimate cyber cafe with high-speed internet,
-              gaming consoles, and a cozy atmosphere. Perfect for work, study,
-              or play.
-            </p>
-            <div class="btn">
-              <button type="button" class="btn-light">Explore Now</button>
-              <button type="button" class="btn-dark">Our Services</button>
+    <nav class="navbar">
+      <div class="logo" id="logoCafe">CyberCafe</div>
+      <div class="menu">
+        <a href="about-us.html">About Us</a>
+        <a href="service.html">Services</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="pricing.html">Pricing</a>
+      </div>
+      <div class="buttons">
+        <button class="our-services">Our Services</button>
+        <button class="contact-us">Contact Us</button>
+      </div>
+    </nav>
+    <div class="background">
+      <img class="backg-clip" src="images/background.webp" alt="" />
+      <div class="header-container">
+        <h1 class="welcome-text">Welcome to Cyber Cafe</h1>
+        <p>
+          We are a group of enthusiastic students, embarking on an exciting
+          project to design and plan a cyber café. This initiative combines
+          creativity and technical expertise as we select hardware and software,
+          design a network topology, configure IP addressing, and choose the
+          best internet services.
+        </p>
+        <div class="btn">
+          <button type="button" class="btn-light">Explore Now</button>
+          <button type="button" class="btn-dark">Our Services</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="discover-section">
+      <div class="head-ds">
+        <h1>Discover Azim Cafe</h1>
+        <p>
+          At Azim Cafe, we strive to create a welcoming environment for
+          technology enthusiasts. Our mission is to connect people through
+          gaming and high-speed internet access, while providing quality
+          refreshments.
+        </p>
+      </div>
+
+      <div class="obj-container">
+        <div class="our-team-container">
+          <svg
+            class="user-icon icon"
+            xmlns="http://www.w3.org/2000/svg"
+            height="40px"
+            viewBox="0 -960 960 960"
+            width="40px"
+            fill="#EAC452"
+          >
+            <path
+              d="M38.67-160v-100q0-34.67 17.83-63.17T105.33-366q69.34-31.67 129.67-46.17 60.33-14.5 123.67-14.5 63.33 0 123.33 14.5T611.33-366q31 14.33 49.17 42.83T678.67-260v100h-640Zm706.66 0v-102.67q0-56.66-29.5-97.16t-79.16-66.84q63 7.34 118.66 22.5 55.67 15.17 94 35.5 34 19.34 53 46.17 19 26.83 19 59.83V-160h-176ZM358.67-480.67q-66 0-109.67-43.66Q205.33-568 205.33-634T249-743.67q43.67-43.66 109.67-43.66t109.66 43.66Q512-700 512-634t-43.67 109.67q-43.66 43.66-109.66 43.66ZM732-634q0 66-43.67 109.67-43.66 43.66-109.66 43.66-11 0-25.67-1.83-14.67-1.83-25.67-5.5 25-27.33 38.17-64.67Q578.67-590 578.67-634t-13.17-80q-13.17-36-38.17-66 12-3.67 25.67-5.5 13.67-1.83 25.67-1.83 66 0 109.66 43.66Q732-700 732-634Z"
+            />
+          </svg>
+          <h1>Our Team</h1>
+          <p>
+            Meet our dedicated team members who are passionate about technology
+            and customer service. They are here to ensure you have the best
+            experience possible at Azim Cafe. Come and connect with us!
+          </p>
+        </div>
+        <div class="our-team-container">
+          <svg
+            class="target-icon icon"
+            xmlns="http://www.w3.org/2000/svg"
+            height="40px"
+            viewBox="0 -960 960 960"
+            width="40px"
+            fill="#EAC452"
+          >
+            <path
+              d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-66.67q139.58 0 236.46-96.87 96.87-96.88 96.87-236.46t-96.87-236.46Q619.58-813.33 480-813.33t-236.46 96.87Q146.67-619.58 146.67-480t96.87 236.46q96.88 96.87 236.46 96.87Zm0-93.33q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm0-66.67q72 0 122.67-50.66Q653.33-408 653.33-480t-50.66-122.67Q552-653.33 480-653.33t-122.67 50.66Q306.67-552 306.67-480t50.66 122.67Q408-306.67 480-306.67Zm0-93.33q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Z"
+            />
+          </svg>
+          <h1>Our Mission</h1>
+          <p>
+            Our mission is to create a vibrant space where gamers and computer
+            users can enjoy high-speed internet and refreshments. We aim to
+            foster community engagement and innovation in technology.
+          </p>
+        </div>
+        <div class="our-team-container">
+          <svg
+            class="star-icon icon"
+            xmlns="http://www.w3.org/2000/svg"
+            height="40px"
+            viewBox="0 -960 960 960"
+            width="40px"
+            fill="#EAC452"
+          >
+            <path
+              d="M480-269 300.67-161q-9 5.67-19 5-10-.67-17.67-6.33-7.67-5.67-11.67-14.5-4-8.84-1.66-19.84L298-401 139.67-538.67q-8.67-7.66-10.5-17.16-1.84-9.5.83-18.5t10-15q7.33-6 18.67-7.34L368-615l81-192.67q4.33-10 13.17-15 8.83-5 17.83-5 9 0 17.83 5 8.84 5 13.17 15L592-615l209.33 18.33q11.34 1.34 18.67 7.34 7.33 6 10 15t.83 18.5q-1.83 9.5-10.5 17.16L662-401l47.33 204.33q2.34 11-1.66 19.84-4 8.83-11.67 14.5-7.67 5.66-17.67 6.33-10 .67-19-5L480-269Z"
+            />
+          </svg>
+          <h1>Our Values</h1>
+          <p>
+            We believe in customer satisfaction, community engagement, and
+            providing quality service. At Azim Cafe, we are committed to
+            creating an enjoyable experience for all our visitors.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="Explore-Service">
+      <div class="header-explore-wrapper">
+        <h1>Explore Our Exciting Services at Azim Cafe</h1>
+        <p>
+          At Azim Cafe, we offer a range of services to cater to your needs.
+          Whether you’re looking to work, play, or relax, our high-speed
+          computer access, vibrant gaming zone, and convenient refreshments
+          ensure a fulfilling experience. Discover what makes us the perfect
+          spot for tech enthusiasts and casual visitors alike.
+        </p>
+      </div>
+
+      <div class="images-preview">
+        <div class="images-container">
+          <img src="images/image1.webp" alt="" />
+          <h2>High-Speed Computer Access</h2>
+          <p>
+            Experience fast and reliable internet on our fully equipped
+            computers. Ideal for work, study, or gaming in a comfortable and
+            quiet setting.
+          </p>
+          <button>Learn more</button>
+        </div>
+        <div class="images-container">
+          <img src="images/image2.webp" alt="" />
+          <h2>Thrilling Gaming Zone</h2>
+          <p>
+            Dive into exciting gaming adventures with our PlayStation 5
+            consoles. Enjoy the latest titles and friendly competitions in a
+            social environment.
+          </p>
+          <button>Learn more</button>
+        </div>
+        <div class="images-container">
+          <img src="images/image3.webp" alt="" />
+          <h2>Convenient Refreshments</h2>
+          <p>
+            Stay energized with our selection of snacks and beverages. Perfect
+            for a quick break or to fuel your gaming sessions.
+          </p>
+          <button>Learn more</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="facilities-preview">
+      <div class="facilities-preview-container">
+        <h1 class="header-facilities">
+          Explore Our State-of-the-Art Facilities
+        </h1>
+        <div class="right-section-preview">
+          <p class="header-text">
+            At Azim Cafe, we offer a modern and comfortable environment equipped
+            with 8 high-performance computers and 3 PlayStation 5 consoles.
+            Whether you’re here to work, study, or game, our facilities are
+            designed to meet your needs.
+          </p>
+          <div class="facilities">
+            <div class="computers">
+              <h1>Computers</h1>
+              <p>
+                Experience fast internet and the latest software on our 8 fully
+                equipped computers.
+              </p>
+            </div>
+            <div class="gaming-zone">
+              <h1>Gaming Zone</h1>
+              <p>
+                Enjoy the latest games on our 3 PlayStation 5 consoles in a
+                vibrant setting.
+              </p>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="discover-section">
-          <div class="head-ds">
-            <h1>Discover Azim Cafe</h1>
-            <p>
-              At Azim Cafe, we strive to create a welcoming environment for
-              technology enthusiasts. Our mission is to connect people through
-              gaming and high-speed internet access, while providing quality
-              refreshments.
-            </p>
+      <div class="price-section">
+        <div class="price-section-container">
+          <h1>Affordable Pricing</h1>
+          <p>
+            Explore our competitive rates for computer access and gaming
+            sessions.
+          </p>
+        </div>
+        <div class="pricing-container">
+          <div class="card">
+            <h2>Hourly Computer Access</h2>
+            <h3>$5 per hour</h3>
+            <p>Ideal for those needing quick access to high-speed computers.</p>
+            <ul>
+              <box-icon name="check-double"></box-icon>
+              <li>Access to high-speed computers</li>
+            </ul>
+            <ul>
+              <box-icon name="check-double"></box-icon>
+              <li>Printing services available at an extra cost</li>
+            </ul>
+            <button>Choose Plan</button>
           </div>
 
-          <div class="obj-container">
-            <div class="our-team-container">
-              <svg
-                class="user-icon icon"
-                xmlns="http://www.w3.org/2000/svg"
-                height="40px"
-                viewBox="0 -960 960 960"
-                width="40px"
-                fill="#EAC452"
-              >
-                <path
-                  d="M38.67-160v-100q0-34.67 17.83-63.17T105.33-366q69.34-31.67 129.67-46.17 60.33-14.5 123.67-14.5 63.33 0 123.33 14.5T611.33-366q31 14.33 49.17 42.83T678.67-260v100h-640Zm706.66 0v-102.67q0-56.66-29.5-97.16t-79.16-66.84q63 7.34 118.66 22.5 55.67 15.17 94 35.5 34 19.34 53 46.17 19 26.83 19 59.83V-160h-176ZM358.67-480.67q-66 0-109.67-43.66Q205.33-568 205.33-634T249-743.67q43.67-43.66 109.67-43.66t109.66 43.66Q512-700 512-634t-43.67 109.67q-43.66 43.66-109.66 43.66ZM732-634q0 66-43.67 109.67-43.66 43.66-109.66 43.66-11 0-25.67-1.83-14.67-1.83-25.67-5.5 25-27.33 38.17-64.67Q578.67-590 578.67-634t-13.17-80q-13.17-36-38.17-66 12-3.67 25.67-5.5 13.67-1.83 25.67-1.83 66 0 109.66 43.66Q732-700 732-634Z"
-                />
-              </svg>
-              <h1>Our Team</h1>
-              <p>
-                Meet our dedicated team members who are passionate about
-                technology and customer service. They are here to ensure you
-                have the best experience possible at Azim Cafe. Come and connect
-                with us!
-              </p>
+          <div class="card">
+            <h2>Gaming Session</h2>
+            <h3>$10 per hour</h3>
+            <p>Perfect for gamers looking to enjoy the latest titles.</p>
+            <ul>
+              <box-icon name="check-double" color="#fafafa"></box-icon>
+              <li>Access to PlayStation 5 consoles</li>
+            </ul>
+            <ul>
+              <box-icon name="check-double" color="#fafafa"></box-icon>
+              <li>Choice of latest games</li>
+            </ul>
+            <button>Start Gaming</button>
+          </div>
+
+          <div class="card">
+            <h2>Combo Package</h2>
+            <h3>$12 per hour</h3>
+            <p>Get the best of both worlds with our combo offer.</p>
+            <ul>
+              <box-icon name="check-double"></box-icon>
+              <li>1 hour of computer access + 1 hour of gaming</li>
+            </ul>
+            <ul>
+              <box-icon name="check-double  "></box-icon>
+              <li>Includes a complimentary snack</li>
+            </ul>
+            <button>Grab Combo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="location-container">
+      <div class="contact-container">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9524645527185!2d101.62969047501849!3d3.1072770968682906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4be41acdf015%3A0x468cbbcfea9200ac!2s6%2C%20Jalan%2014%2F36%2C%20Seksyen%2014%2C%2046100%20Petaling%20Jaya%2C%20Selangor!5e0!3m2!1sen!2smy!4v1735744405438!5m2!1sen!2smy"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="form-section">
+          <h2>Get in Touch</h2>
+          <p>We'd love to hear from you!</p>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
             </div>
-            <div class="our-team-container">
-              <svg
-                class="target-icon icon"
-                xmlns="http://www.w3.org/2000/svg"
-                height="40px"
-                viewBox="0 -960 960 960"
-                width="40px"
-                fill="#EAC452"
-              >
-                <path
-                  d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-66.67q139.58 0 236.46-96.87 96.87-96.88 96.87-236.46t-96.87-236.46Q619.58-813.33 480-813.33t-236.46 96.87Q146.67-619.58 146.67-480t96.87 236.46q96.88 96.87 236.46 96.87Zm0-93.33q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm0-66.67q72 0 122.67-50.66Q653.33-408 653.33-480t-50.66-122.67Q552-653.33 480-653.33t-122.67 50.66Q306.67-552 306.67-480t50.66 122.67Q408-306.67 480-306.67Zm0-93.33q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Z"
-                />
-              </svg>
-              <h1>Our Mission</h1>
-              <p>
-                Our mission is to create a vibrant space where gamers and
-                computer users can enjoy high-speed internet and refreshments.
-                We aim to foster community engagement and innovation in
-                technology.
-              </p>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
             </div>
-            <div class="our-team-container">
-              <svg
-                class="star-icon icon"
-                xmlns="http://www.w3.org/2000/svg"
-                height="40px"
-                viewBox="0 -960 960 960"
-                width="40px"
-                fill="#EAC452"
-              >
-                <path
-                  d="M480-269 300.67-161q-9 5.67-19 5-10-.67-17.67-6.33-7.67-5.67-11.67-14.5-4-8.84-1.66-19.84L298-401 139.67-538.67q-8.67-7.66-10.5-17.16-1.84-9.5.83-18.5t10-15q7.33-6 18.67-7.34L368-615l81-192.67q4.33-10 13.17-15 8.83-5 17.83-5 9 0 17.83 5 8.84 5 13.17 15L592-615l209.33 18.33q11.34 1.34 18.67 7.34 7.33 6 10 15t.83 18.5q-1.83 9.5-10.5 17.16L662-401l47.33 204.33q2.34 11-1.66 19.84-4 8.83-11.67 14.5-7.67 5.66-17.67 6.33-10 .67-19-5L480-269Z"
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Type your message"
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <input type="checkbox" id="terms" name="terms" required />
+              <label for="terms">I accept the Terms</label>
+            </div>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="responsive-container-block outer-container">
+      <div class="responsive-container-block inner-container">
+        <p class="text-blk section-head-text">Meet Our Expert Instructors</p>
+        <p class="text-blk section-subhead-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <div class="responsive-container-block">
+          <div
+            class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container"
+          >
+            <div class="team-card">
+              <div class="img-wrapper">
+                <img
+                  class="team-img"
+                  src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"
                 />
-              </svg>
-              <h1>Our Values</h1>
-              <p>
-                We believe in customer satisfaction, community engagement, and
-                providing quality service. At Azim Cafe, we are committed to
-                creating an enjoyable experience for all our visitors.
-              </p>
+              </div>
+              <p class="text-blk name">Maxwell Doe</p>
+              <p class="text-blk position">Instructor</p>
+              <div class="social-media-links">
+                <a href="http://www.twitter.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"
+                  />
+                </a>
+                <a href="http://www.facebook.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"
+                  />
+                </a>
+                <a href="http://www.instagram.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"
+                  />
+                </a>
+                <a href="http://www.gmail.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container"
+          >
+            <div class="team-card">
+              <div class="img-wrapper">
+                <img
+                  class="team-img"
+                  src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png"
+                />
+              </div>
+              <p class="text-blk name">Maxwell Doe</p>
+              <p class="text-blk position">Instructor</p>
+              <div class="social-media-links">
+                <a href="http://www.twitter.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"
+                  />
+                </a>
+                <a href="http://www.facebook.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"
+                  />
+                </a>
+                <a href="http://www.instagram.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"
+                  />
+                </a>
+                <a href="http://www.gmail.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container"
+          >
+            <div class="team-card">
+              <div class="img-wrapper">
+                <img
+                  class="team-img"
+                  src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"
+                />
+              </div>
+              <p class="text-blk name">Maxwell Doe</p>
+              <p class="text-blk position">Instructor</p>
+              <div class="social-media-links">
+                <a href="http://www.twitter.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"
+                  />
+                </a>
+                <a href="http://www.facebook.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"
+                  />
+                </a>
+                <a href="http://www.instagram.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"
+                  />
+                </a>
+                <a href="http://www.gmail.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container"
+          >
+            <div class="team-card">
+              <div class="img-wrapper">
+                <img
+                  class="team-img"
+                  src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png"
+                />
+              </div>
+              <p class="text-blk name">Maxwell Doe</p>
+              <p class="text-blk position">Instructor</p>
+              <div class="social-media-links">
+                <a href="http://www.twitter.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"
+                  />
+                </a>
+                <a href="http://www.facebook.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"
+                  />
+                </a>
+                <a href="http://www.instagram.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"
+                  />
+                </a>
+                <a href="http://www.gmail.com/" target="_blank">
+                  <img
+                    src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
-        <div class="Explore-Service">
-          <div class="header-explore-wrapper">
-            <h1>Explore Our Exciting Services at Azim Cafe</h1>
-            <p>
-              At Azim Cafe, we offer a range of services to cater to your needs.
-              Whether you’re looking to work, play, or relax, our high-speed
-              computer access, vibrant gaming zone, and convenient refreshments
-              ensure a fulfilling experience. Discover what makes us the perfect
-              spot for tech enthusiasts and casual visitors alike.
-            </p>
-          </div>
-
-          <div class="images-preview">
-            <div class="images-container">
-              <img src="images/image1.webp" alt="" />
-              <h2>High-Speed Computer Access</h2>
-              <p>
-                Experience fast and reliable internet on our fully equipped
-                computers. Ideal for work, study, or gaming in a comfortable and
-                quiet setting.
-              </p>
-              <button>Learn more</button>
-            </div>
-            <div class="images-container">
-              <img src="images/image2.webp" alt="" />
-              <h2>Thrilling Gaming Zone</h2>
-              <p>
-                Dive into exciting gaming adventures with our PlayStation 5
-                consoles. Enjoy the latest titles and friendly competitions in a
-                social environment.
-              </p>
-              <button>Learn more</button>
-            </div>
-            <div class="images-container">
-              <img src="images/image3.webp" alt="" />
-              <h2>Convenient Refreshments</h2>
-              <p>
-                Stay energized with our selection of snacks and beverages.
-                Perfect for a quick break or to fuel your gaming sessions.
-              </p>
-              <button>Learn more</button>
-            </div>
-          </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Facilities</a></li>
+          </ul>
         </div>
-      </body>
-    </html>
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Community</h4>
+        </div>
+        <div class="footer-section">
+          <h4>Stay Updated</h4>
+          <p>
+            Subscribe to our newsletter for the latest updates and offers from
+            Azim Cafe.
+          </p>
+          <form>
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Azim Cafe – All rights reserved.</p>
+        <ul>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#"
+            ><box-icon
+              name="facebook-circle"
+              type="logo"
+              color="#ffffff"
+            ></box-icon
+          ></a>
+          <a href="#"
+            ><box-icon name="instagram" type="logo" color="#ffffff"></box-icon
+          ></a>
+          <a href="#"
+            ><box-icon name="twitter" type="logo" color="#ffffff"></box-icon
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document
+        .getElementById("logoCafe")
+        .addEventListener("click", function () {
+          window.location.href = "index.html";
+        });
+    </script>
   </body>
 </html>

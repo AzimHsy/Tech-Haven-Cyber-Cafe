@@ -1,8 +1,7 @@
 body {
   margin: 0;
   font-family: "Rubik", serif;
-  padding-bottom: 2000px;
-  background-color: gray;
+  background-color: white;
 }
 
 .navbar {
@@ -12,7 +11,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgb(0, 0, 0);
   padding: 10px 20px;
   color: white;
   z-index: 2;
@@ -20,6 +19,7 @@ body {
 }
 
 .navbar .logo {
+  cursor: pointer;
   padding-left: 50px;
   font-size: 1.5rem;
   left: 10%;
@@ -122,10 +122,10 @@ body {
 
 .header-container p {
   padding: 0;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.638);
-  width: 80%;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.979);
+  width: 100%;
   font-weight: lighter;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 

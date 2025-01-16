@@ -1,0 +1,277 @@
+.header-faci {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 30px;
+}
+
+.header-faci img {
+  width: 600px;
+}
+
+.header-text {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 46%;
+}
+
+.header-text h1 {
+  font-size: 3.4rem;
+}
+
+.header-text p {
+  font-weight: lighter;
+  font-size: 1.3rem;
+  justify-self: center;
+  letter-spacing: 1px;
+}
+
+.header-text button {
+  width: 22%;
+  padding: 20px 10px;
+  border: 1px solid rgb(48, 132, 228);
+  border-radius: 4px;
+  color: rgb(47, 165, 255);
+  background-color: white;
+  font-weight: lighter;
+  transition: 0.3s ease;
+  font-size: 1rem;
+}
+
+.header-text button:hover {
+  color: white;
+  background-color: rgb(47, 165, 255);
+}
+
+.faci-header {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  margin: 50px 120px;
+  height: 40vh;
+  padding: 10px;
+}
+
+.faci-header h1 {
+  position: absolute;
+  width: 50%;
+  font-size: 2.7rem;
+}
+
+.faci-header p {
+  position: absolute;
+  width: 50%;
+  right: 0;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+.grid-container {
+  margin-top: -100px;
+  margin-left: 5px;
+  position: relative;
+  width: 98vw;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container img {
+  width: 250px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.grid-item h4 {
+  font-size: 1.1rem;
+}
+
+.grid-item p {
+  font-size: 1rem;
+  font-weight: lighter;
+  line-height: 2;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  border-radius: 4px;
+}
+
+.link-shop {
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-shop a {
+  text-decoration: none;
+  color: white;
+}
+
+.link-shop p {
+  font-size: 0.9rem;
+}
+
+.link-shop a:hover {
+  text-decoration: underline;
+}
+
+.budget-container {
+  height: 60vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.budget-container h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.budget-container span {
+  color: rgb(67, 132, 238);
+}
+
+/* footer */
+
+.footer {
+  position: relative;
+  background-color: #222;
+  color: #fff;
+  height: 45vh;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 0 20px;
+}
+
+.footer-section h4 {
+  font-size: 1.7rem;
+  margin-bottom: 40px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 30px 0;
+}
+
+.footer-section ul li a {
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.footer p {
+  margin-top: -30px;
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+
+.footer-section form {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-section form input {
+  margin-top: 10px;
+  flex: 1;
+  padding: 18px;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer-section form button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-section form button:hover {
+  background-color: #0056b3;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-bottom ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-bottom ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom .social-icons a {
+  margin-left: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom .social-icons a:hover {
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
