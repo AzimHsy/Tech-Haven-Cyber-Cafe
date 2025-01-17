@@ -55,6 +55,32 @@
   padding: 30px;
 }
 
+.address {
+  position: relative;
+  z-index: -2;
+  overflow: hidden;
+  margin-top: -200px;
+}
+
+.address img {
+  width: 150%;
+  object-position: top;
+}
+
+.topology-text {
+  position: absolute;
+  text-align: center;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.topology-text h1 {
+  font-size: 4rem;
+}
+
 .footer {
   position: relative;
   background-color: #222;
